@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Fetch API CRUD</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header><h1>Fetch API CRUD</h1></header>
+
+<nav>
+  <a href="index.html">Home</a>
+  <a href="javascript.html">JavaScript CRUD</a>
+  <a href="react/react.html">React CRUD</a>
+  <a href="spa.html">SPA</a>
+  <a href="fetchapi.html">Fetch API</a>
+  <a href="axios.html">Axios</a>
+  <a href="oojs.html">OOJS</a>
+</nav>
+
+<main>
+  <input id="name" placeholder="Student name">
+  <input id="className" placeholder="Class">
+  <button onclick="addStudent()">Add Student</button>
+
+  <table>
+    <thead>
+      <tr><th>ID</th><th>Name</th><th>Class</th><th>Action</th></tr>
+    </thead>
+    <tbody id="studentTable"></tbody>
+  </table>
+</main>
+
+<script src="js/fetchapi.js"></script>
+</body>
+</html>
